@@ -21,8 +21,9 @@
 ?>
 
 <?php include('inc/header.php'); ?>
-  <h1>Add Post</h1>
+  
   <div class="container">
+  <h1>Add Post</h1>
    <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <div class="form-group">
       <label>Title</label>
